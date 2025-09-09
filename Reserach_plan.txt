@@ -1,5 +1,6 @@
 We will adopt a two stage methodology that integrates static python program analysis along with 3 LLM driven analytical questioning. 
-First, the student written code sample (we use a simple binary search implementation using python) is subjected to AST (Abstract Syntax Tree) parsing and linter analysis to extract the critical structural properties, such as loop invariants, boundary conditions etc. This gives us an ideal baseline of syntactic and semantic facts about the program independent of various models' interpretations. 
+First, the student written code sample (we use a simple binary search implementation using python) is subjected to AST (Abstract Syntax Tree) parsing and linter analysis to extract the critical structural properties, such as loop invariants, boundary conditions etc. 
+This gives us an ideal baseline of syntactic and semantic facts about the program independent of various models' interpretations. 
 In the second stage, selected models— DeepSeek-V3, Llama 3.1 (405B), and OpenAI GPT-OSS-20B are prompted with the raw student code alongside structured evaluation instructions. 
 Each model is tasked with generating: 
             (a) conceptual prompts examining algorithmic reasoning,
