@@ -1,0 +1,3 @@
+transformers  # to load and run the models 
+torch  # backend library required to implement Hugging Face models
+pylint  # for automated static code analysis of student submissions
