@@ -10,33 +10,33 @@ This repository implements an evaluation pipeline to assess whether LLMs can ana
 # Setup
 
 ## 1) Clone the repository
-    ```
+
     git clone https://github.com/ishit-10/fosse_researchWork_python.git
     cd fosse_researchWork_python
-    ```
+
 
 ## 2) Create Python environment (using venv)
-    ```
+
     python3.10 -m venv .venv
     source .venv/bin/activate
     pip install --upgrade pip
-    ```
+
 
 ## 3) Install Dependencies
-    ```
+
     transformers>=4.30.0
     torch>=2.0.0
     pylint
-    ```
+
     
   ### Install:
-    ```
+
     pip install -r requirements.txt
-    ```
+
   ### Other tools:
-    ```
+
     pip install vllm accelerate huggingface_hub astpretty jupyter
-    ```
+
 
 ## 4) Obtain model checkpoints
 ### Hugging Face login:
